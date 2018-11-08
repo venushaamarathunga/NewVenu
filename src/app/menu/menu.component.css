@@ -1,0 +1,9 @@
+.active{
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+}
+
+.nav-item {
+    margin: 10px 50px;
+}

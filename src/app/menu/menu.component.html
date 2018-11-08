@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <div class="navbar-header">
+          <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Account-Owner Home</a>
+      </div>
+      <li class="nav-item">
+        <a [routerLink]="['/owner/list']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Owner Actions</a>
+      </li>
+      <li class="nav-item">
+        <a href="#">Account Actions</a>
+      </li>
+    </ul>
+  </div>
+</nav>
